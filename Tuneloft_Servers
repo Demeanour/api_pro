@@ -1,0 +1,77 @@
+##Tuneloft Server side:
+
+## Todo List:
+ - Create Documentation for the App
+ - Create WebServers Connections
+ - Create Database for users
+ - Install the required libraries
+## Server Requirements:
+-- WebServers
+-- Databases
+-- Authentication WebServers
+
+## API
+-- login
+-- Sign up
+-- Get timeline
+-- 
+
+
+## Frameworks 
+-- python3.8.3
+-- kafka-python
+-- redis
+-- flask-python
+-- flask_restful
+-- jwt (token Authentication)
+
+
+
+### This is just corrupted corrupted#@app.required
+class Timeline(Resource):
+        """
+        1. Check if the user has a session in the redis database
+        2. get user_id and all the user's subscribed topics
+        3. get timeline data """
+        def __init__():
+            pass
+        def get(self):
+
+            return {"Test": "This is a test"}
+
+
+####### Login Class ########
+class Login:
+    """ 
+    1. create a database object 
+    2. Connect to the database
+    3. Check if the users exists in the database
+    4. if user exists check if the password is correct for the user
+    5. connect to redisDB and create a user instance in the 
+    """
+    session = []
+    def get(self, cred):
+        return "this is the login Page"
+
+class Signup:
+    def get(self):
+        """
+        1. get all the detail of new user
+        2. connect to database
+        3. insert data to user table in the database
+
+        """
+        return {'Test' : "this is a test"}
+    ##
+    def new_user():
+        pass
+    def verify_user():
+        pass
+
+### These are the api resource for clients to request anything from the servers. 
+### Still neeed to install the flask_restful aip for them to work. and also to test them
+
+#api.add_resource(Timeline, '/')
+## timeline Post
+#api.add_resource(Timeline, '/newpost')
+api.add_resource(Login, '/login')
