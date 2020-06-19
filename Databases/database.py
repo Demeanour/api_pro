@@ -1,2 +1,7 @@
 ###This is the database class for couchbase and mysql
-## from redis import 
+import redis
+
+## Database class 
+
+class DB(object):
+    

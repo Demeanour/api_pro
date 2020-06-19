@@ -2,12 +2,20 @@
 
 
 ## Todo List
+ -- Create a Database class
+ -- Install python libraries needed
+ -- 
 
 ## Server Requirements
 
 ## Connections
+ -- Redis Connections
+ -- Couchbase Connection
 
 ## Frameworks
  - #Python Frameworks
- 
+    -- redis-py
+    -- Couchbase
+
  - #Server Frameworks
+    -- 
