@@ -8,14 +8,15 @@
  - 
 
 ## Server Requirements:
--- WebServers
--- Databases
--- Authentication WebServers
+-- WebServers                   []
+-- Databases                    []
+-- Authentication WebServers    []
+-- 
 
 ## API
--- login
--- Sign up
--- Get timeline
+-- login                    []
+-- Sign up                  []
+-- Get timeline             []
 -- 
 
 
