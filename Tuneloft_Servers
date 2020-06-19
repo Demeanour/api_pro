@@ -1,10 +1,12 @@
 ##Tuneloft Server side:
 
 ## Todo List:
- - Create Documentation for the App
- - Create WebServers Connections
- - Create Database for users
- - Install the required libraries
+ - Create Documentation for the App []
+ - Create WebServers Connections    []
+ - Create Database for users        []
+ - Install the required libraries   [done]
+ - 
+
 ## Server Requirements:
 -- WebServers
 -- Databases
@@ -24,6 +26,9 @@
 -- flask-python
 -- flask_restful
 -- jwt (token Authentication)
+
+
+##  ##
 
 
 
